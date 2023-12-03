@@ -1,0 +1,80 @@
+body{
+    font-family:Verdana;
+    background-color: white;
+    width: 80%;
+    margin: 5% auto;
+}
+.resume-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;
+}
+
+.left{
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: repeat(3, 250px);
+}
+.left-top{
+   background-color: rgb(31, 105, 195);
+   color: white;
+   text-align: center;
+   padding: 10px;
+   grid-row: 1/2;
+}
+
+.left-bottom{
+    background-color: rgb(64, 64, 64);
+    grid-row: 2/5;
+    padding: 10px 30px;
+    color: white;
+}
+
+.left img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.right{
+    grid-column: 2/4;
+    padding: 0px 20px;
+}
+
+.right p{
+    color: grey;
+}
+
+.links a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   margin: 0px 5px;
+}
+
+.link{
+    display: flex;
+}
+
+.contact{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+h2{
+    margin: 0px;
+    color: rgb(31, 105, 195);
+}
+hr{
+    background-color: black;
+    height: 2px;
+}
+
+.right li{
+    color: grey;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.right div{
+    margin-bottom: 70px;
+}
