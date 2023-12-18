@@ -3,6 +3,7 @@ body{
     background-color: white;
     /* width: 80%;
     margin: 5% auto; */
+    height: 100vh;
 }
 .resume-container{
     display: grid;
